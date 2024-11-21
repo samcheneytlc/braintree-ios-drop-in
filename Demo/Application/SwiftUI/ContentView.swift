@@ -22,7 +22,7 @@ struct ContentView: View {
                 Button(action: { self.showDropIn = true }) {
                     HStack {
                         Spacer()
-                        Text("Select Payment Method")
+                        Text("Select Payment Method TEST")
                             .fontWeight(.bold)
                             .font(.body)
                         Spacer()
