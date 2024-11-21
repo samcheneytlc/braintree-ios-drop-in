@@ -42,7 +42,7 @@
 "OTHER_LABEL"                               = "Other";
 "CREDIT_OR_DEBIT_CARD_LABEL"                = "Credit or Debit Card";
 "RECENT_LABEL"                              = "Recent";
-"SELECT_PAYMENT_LABEL"                      = "Select Payment Method";
+"SELECT_PAYMENT_LABEL"                      = "Select Payment Method TEST";
 
 "CONFIRM_ENROLLMENT_LABEL"                  = "Confirm Enrollment";
 "CONFIRM_ACTION"                            = "Confirm";

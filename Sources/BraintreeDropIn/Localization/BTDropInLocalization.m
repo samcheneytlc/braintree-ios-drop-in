@@ -177,7 +177,7 @@ static NSArray *customTranslations;
 }
 
 + (NSString *)SELECT_PAYMENT_LABEL {
-    return NSLocalizedStringWithDefaultValue(@"SELECT_PAYMENT_LABEL", [self localizationTable], [self localizationBundle], @"Select Payment Method", @"SELECT_PAYMENT_LABEL");
+    return NSLocalizedStringWithDefaultValue(@"SELECT_PAYMENT_LABEL", [self localizationTable], [self localizationBundle], @"Select Payment Method TEST", @"SELECT_PAYMENT_LABEL");
 }
 
 + (NSString *)CONFIRM_ENROLLMENT_LABEL {
