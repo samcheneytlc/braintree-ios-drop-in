@@ -40,7 +40,7 @@
 "MONTH_LABEL"                               = "Month";
 
 "OTHER_LABEL"                               = "Other";
-"CREDIT_OR_DEBIT_CARD_LABEL"                = "Credit or Debit Card";
+"CREDIT_OR_DEBIT_CARD_LABEL"                = "Debit Card";
 "RECENT_LABEL"                              = "Recent";
 "SELECT_PAYMENT_LABEL"                      = "Select Payment Method";
 
