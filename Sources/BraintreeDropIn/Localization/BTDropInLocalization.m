@@ -169,7 +169,7 @@ static NSArray *customTranslations;
 }
 
 + (NSString *)CREDIT_OR_DEBIT_CARD_LABEL {
-    return NSLocalizedStringWithDefaultValue(@"CREDIT_OR_DEBIT_CARD_LABEL", [self localizationTable], [self localizationBundle], @"Credit or Debit Card", @"CREDIT_OR_DEBIT_CARD_LABEL");
+    return NSLocalizedStringWithDefaultValue(@"CREDIT_OR_DEBIT_CARD_LABEL", [self localizationTable], [self localizationBundle], @"Debit Card", @"CREDIT_OR_DEBIT_CARD_LABEL");
 }
 
 + (NSString *)RECENT_LABEL {
