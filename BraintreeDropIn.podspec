@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.screenshots      = ["https://github.com/braintree/braintree-ios-drop-in/raw/main/Images/client-sdk-ios-series-light.png", "https://github.com/braintree/braintree-ios-drop-in/raw/main/Images/client-sdk-ios-series-dark.png"]
   s.license          = "MIT"
   s.author           = { "Braintree" => "team-bt-sdk@paypal.com" }
-  s.source           = { :git => "https://github.com/samcheneytlc/braintree-ios-drop-in.git", :tag => s.version.to_s } # Updated to point to your fork
+  s.source           = { :git => "https://github.com/samcheneytlc/braintree-ios-drop-in.git", :tag => "9.4.1" }
 
   s.platform         = :ios, "12.0"
   s.requires_arc     = true
