@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BraintreeDropIn"
-  s.version          = "9.13.0"
+  s.version          = "9.4.1" # Updated version
   s.summary          = "Braintree Drop-in SDK: A modern foundation for accepting payments"
   s.description      = <<-DESC
                        Braintree is a full-stack payments platform for developers
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.screenshots      = ["https://github.com/braintree/braintree-ios-drop-in/raw/main/Images/client-sdk-ios-series-light.png", "https://github.com/braintree/braintree-ios-drop-in/raw/main/Images/client-sdk-ios-series-dark.png"]
   s.license          = "MIT"
   s.author           = { "Braintree" => "team-bt-sdk@paypal.com" }
-  s.source           = { :git => "https://github.com/braintree/braintree-ios-drop-in.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/samcheneytlc/braintree-ios-drop-in.git", :tag => s.version.to_s } # Updated to point to your fork
 
   s.platform         = :ios, "12.0"
   s.requires_arc     = true
@@ -34,6 +34,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     "BraintreeDropIn-Localization" => ["Sources/BraintreeDropIn/Resources/*.lproj"],
     "BraintreeDropIn_PrivacyInfo" => ["Sources/BraintreeDropIn/PrivacyInfo.xcprivacy"]
-}
-
+  }
 end
